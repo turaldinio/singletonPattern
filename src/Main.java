@@ -36,7 +36,7 @@ public class Main {
         Filter filter = new Filter(threshold);
         List<Integer> result = filter.filterOut(list);
 
-        logger.log(String.format(" Прошло фильтр %d элемента из %d", result.size(), listSize));
+        logger.log(String.format("Прошло фильтр %d элемента из %d", result.size(), listSize));
         logger.log("Выводим результат на экран");
 
         System.out.println("Отфильтрованный список: " + result.toString()
